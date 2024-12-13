@@ -1,9 +1,9 @@
 ## Hi there 👋
 
-:computer: **Ingeniero de sistemas especialista en desarrollado de software**
-:pencil: **Desarrollador Backend**
-:eyeglasses: **Entusiasta por el apredizaje de nuevas tecnologías.**
-:clock: **Fan de los relojes, los buenos perfumes y el ejercicio.**
+:computer: **Ingeniero de sistemas especialista en desarrollado de software**  
+:pencil: **Desarrollador Backend**  
+:eyeglasses: **Entusiasta por el apredizaje de nuevas tecnologías.**  
+:clock1: **Fan de los relojes, los buenos perfumes y el ejercicio.**  
 :family: **Un hombre feliz con una hermosa familia.**
 
 ### Vías de contacto
