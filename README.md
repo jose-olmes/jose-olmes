@@ -6,8 +6,6 @@
 :sunglasses: **Fan de los relojes, los buenos perfumes y el ejercicio.**  
 :family: **Un hombre feliz con una hermosa familia.**
 
-### Vías de contacto
-
 ## 🌐 Socials:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jose-olmes-torres)
