@@ -11,4 +11,4 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Update README with recent activity
-        uses: jose-olmes/jose-olmes@main # Reemplaza con tu información
+        uses: jose-olmes/jose-olmes@main
