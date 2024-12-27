@@ -17,7 +17,7 @@ jobs:
 
       # 2. Obtener actividad reciente con un Action
       - name: Fetch recent activity
-        uses: readme-activity/github-activity-readme@v2.0.2
+        uses: jasonlong/github-activity-readme@v1.0.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
