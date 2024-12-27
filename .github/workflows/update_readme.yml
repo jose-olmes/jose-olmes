@@ -19,7 +19,7 @@ jobs:
       - name: Update recent activity
         uses: Readme-Workflows/recent-activity@v2.0.0
         with:
-          RECENT_ACTIVITY: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # 3. Commit y push de los cambios
       - name: Commit and Push Changes
