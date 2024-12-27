@@ -19,7 +19,8 @@ jobs:
       - name: Update recent activity
         uses: Readme-Workflows/recent-activity@v2.0.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: "tu_nombre_de_usuario" # Reemplaza con tu nombre de usuario
+          CONFIG_FILE: ".github/recent-activity.config.yml"
 
       # 3. Commit y push de los cambios
       - name: Commit and Push Changes
