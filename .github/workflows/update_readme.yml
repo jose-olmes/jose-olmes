@@ -9,17 +9,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Update Profile README
-      
-    steps:      
+
+    steps:
       # 1. Checkout del repositorio
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Obtener actividad reciente con un Action
-      - name: Fetch recent activity
-        uses: jasonlong/github-activity-readme@v1.0.0
+      # 2. Generar actividad reciente en el README
+      - name: Update recent activity
+        uses: Readme-Workflows/recent-activity@v2.0.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RECENT_ACTIVITY: ${{ secrets.GITHUB_TOKEN }}
 
       # 3. Commit y push de los cambios
       - name: Commit and Push Changes
