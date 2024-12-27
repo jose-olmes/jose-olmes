@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Update README with recent activity
-        uses: jose-olmes/jose-olmes@main
+    name: Update Profile README
+  update-readme:
+    runs-on: ubuntu-latest    
+    steps:      
+      - uses: actions/checkout@v3
