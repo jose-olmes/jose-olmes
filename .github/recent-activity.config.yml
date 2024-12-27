@@ -1,0 +1,6 @@
+activity:
+  show:
+    - issues
+    - pull_requests
+    - repositories
+  limit: 5 # Número máximo de actividades a mostrar
